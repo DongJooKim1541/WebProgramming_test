@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		#list{
+		width: 100%;
+		border-collapse:collapse;
+	}
+
+		#list tr:hover{
+		background:#FF0000;
+	}
+	#list td,#list th{
+		text-align: center;
+	}
+	#list th{
+		color:white;
+		background-color:blue;
+	}
+	#list tr.even td{
+		background-color:yellow;
+	}
+	#list tr.odd td{
+		background-color:aqua;
+	}
+		</style>
+	</head>
+	<body>
+	<h1>1학기 성적</h1><hr/>
+	<table id="list">
+		<tr>
+			<th>이름</th><th>HTML</th>
+			<th>CSS</th>
+		</tr>
+		<tr class="odd">
+			<td>홍길동</td>
+			<td>80</td>
+			<td>70</td>
+		</tr>
+		<tr class="even">
+			<td>홍길순</td>
+			<td>95</td>
+			<td>99</td>
+		</tr>
+		<tr class="odd">
+			<td>김병태</td>
+			<td>85</td>
+			<td>90</td>
+		</tr>
+		<tr class="even">
+			<td>박영철</td>
+			<td>50</td>
+			<td>40</td>
+		</tr>
+		<tr>
+			<th>합</th>
+			<th>310</th>
+			<th>249</th>
+		</tr>
+	</table>
+	</body>
+</html>
